@@ -13,7 +13,7 @@ body {
     display: flex;
 }
 :focus {
-    outline: hsl(243, 87%, 12%) auto 5px;
+    outline: hsl(163, 95%, 43%) auto 4px;
 }
 .heading {
     font-family: 'Raleway', sans-serif;
@@ -29,13 +29,30 @@ body {
 }
 
 .btn {
-    padding: .6vw 1.5vw;
+    padding: 1.3vw 3.5vw;
     border: solid 1px;
-    font-size: 75%;
+    font-size: 100%;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     border-radius: .3vw;
     background-color: white;
+}
+.form-input {
+    padding: 1.3vw 1vw;
+    border: none;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    border-radius: .3vw;
+    background-color: white;
+    flex: 1;
+    margin-right: 1.5vw;
+}
+.form-group {
+    display: flex;
+}
+.form-input, .btn {
+    box-shadow: 2px 2px 15px #dcdcdc;
 }
 
 .no-border {
@@ -59,12 +76,15 @@ body {
 .text-dark-blue {
 	color: hsl(243, 87%, 12%);
 }
+.text-white {
+    color: #fff;
+}
 .main-image, .main-content {
 	flex: 0 0 40vw;
     padding: 0vw 5vw;
 }
 .main-image {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,10 +129,26 @@ h2 {
     font-size: 170%;
 }
 h1 {
-    font-size: 200%;
+    font-size: 205%;
 }
-
-
+.main-content .heading {
+    padding-top: 6vw;
+    padding-bottom: 2vw;
+}
+p.main-abt {
+    color: hsl(243, 8%, 42%);
+}
+footer {
+    font-size: 80%;
+}
+.privacy {
+    text-align: right;
+    padding-top: 6vw;
+    padding-bottom: 2vw;
+}
+.privacy a { 
+    color: hsl(228, 45%, 44%); 
+}
 
 
 
