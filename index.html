@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Frontend Mentor | Beta sign up split layout Challenge</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Frontend Mentor | Beta sign up split layout Challenge</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { text-align: center; padding: 1.5vw; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution { text-align: center; padding: 1.5vw; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
 </head>
 <body>
-  <div class="main-image bg-gradient">
-    <img src="./images/illustration-main.svg" alt="">
-  </div>
-  <div class="main-content text-dark-blue">
-    <header id="header" class="">
-        <div class="header-logo">
-            <img src="images/logo.svg" alt="">
-        </div>
-        <div class="header-actions">
-            <ul class="">
-                <li><i class="fa fa-twitter"></i></li>
-                <li><i class="fa fa-facebook"></i></li>
-                <li><i class="fa fa-envelope"></i></li>
-            </ul>
-        </div>
-    </header><!-- /header -->
-    <h1 class="heading">All your files in one secure location, accessible anywhere.</h1>
+    <div class="main-image bg-gradient">
+        <header id="header-mobile" class="header">
+            <div class="header-logo">
+                <img src="images/logo-white.svg" alt="">
+            </div>
+            <div class="header-actions">
+                <ul class="">
+                    <li><i class="fa fa-twitter"></i></li>
+                    <li><i class="fa fa-facebook"></i></li>
+                    <li><i class="fa fa-envelope"></i></li>
+                </ul>
+            </div>
+        </header><!-- /header -->
+        <img src="./images/illustration-main.svg" alt="">
+    </div>
+    <div class="main-content text-dark-blue">
+        <header id="header" class="header">
+            <div class="header-logo">
+                <img src="images/logo.svg" alt="">
+            </div>
+            <div class="header-actions">
+                <ul class="">
+                    <li><i class="fa fa-twitter"></i></li>
+                    <li><i class="fa fa-facebook"></i></li>
+                    <li><i class="fa fa-envelope"></i></li>
+                </ul>
+            </div>
+        </header><!-- /header -->
+        <h1 class="heading">All your files in one secure location, accessible anywhere.</h1>
 
-    <p class="main-abt">Fylo stores all your most important files in one secure location. 
-    Access them wherever you need, share and collaborate with friends, 
-    family and co-workers.</p>
-  
-    <form action="" method="get" accept-charset="utf-8" class="signup-form">
-      <h4 class="heading">Sign up for early access</h4> 
-      <div class="form-group">
-        <input type="text" name="" value="" placeholder="" class="form-input">
-        <button type="button" class="btn bg-green no-border text-white">Sign Up</button>
-      </div>
+        <p class="main-abt">Fylo stores all your most important files in one secure location. 
+        Access them wherever you need, share and collaborate with friends, 
+        family and co-workers.</p>
 
-    </form>
+        <form action="" method="get" accept-charset="utf-8" class="signup-form">
+            <h4 class="heading">Sign up for early access</h4> 
+            <div class="form-group">
+                <input type="text" name="" value="" placeholder="" class="form-input">
+                <button type="button" class="btn bg-green no-border text-white">Sign Up</button>
+            </div>
+
+        </form>
+
+        <footer>
+            <p class="privacy"><a href="javascript:void(0)">Privacy Policy</a></p>
+            <p class="attribution">
+            This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
+            </p>
+        </footer>
+    </div>
     
-    <footer>
-      <p class="privacy"><a href="javascript:void(0)">Privacy Policy</a></p>
-      <p class="attribution">
-        This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-      </p>
-  </footer>
-  </div>
-  
+
 </body>
 </html>
